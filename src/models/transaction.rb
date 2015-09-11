@@ -1,5 +1,6 @@
 class Transaction
   attr_accessor :store, :sku, :amount, :currency
+
   def self.parse_from_result(result)
     transaction = Transaction.new
     transaction.store = result[0]

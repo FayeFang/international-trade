@@ -14,5 +14,4 @@ module RatesReader
 
     results
   end
-
 end
